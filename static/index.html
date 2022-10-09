@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <title>Speech Translator</title>
+  <link rel="stylesheet" href="/main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Speech Translator</div>
+    <div class="content">
+      <div>
+        <image src="/mic.png" width="30px" />
+        <p>English</p>
+      </div>
+      <div>
+        <image src="/azure.png" />
+      </div>
+      <div>
+        <image src="/speaker.png" width="50px" />
+        <p><select id="language">
+            <option value="ja">Japanese</option>
+            <option value="de">German</option>
+            <option value="ms">Malay</option>
+            <option value="es">Spanish</option>
+            <option value="zh">Chinese</option>
+          </select></p>
+      </div>
+    </div>
+    <div>
+      <button type="button" id="record">Record</button>
+      <button type="button" id="stopRecord" disabled>Stop</button>
+    </div>
+    <div>
+      <audio id="recordedAudio" style="display:none"></audio>
+    </div>
+  </div>
+</body>
+
+<script src="/main.js"></script>
+
+</html>

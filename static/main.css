@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.title {
+    margin: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+
+.container {
+    width: 350px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+select {
+    padding: 4px;
+}
